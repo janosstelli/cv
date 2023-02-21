@@ -59,25 +59,20 @@ a:hover {
     color:yellowgreen;
 }
 
-@media (max-width:1150px) {
-    #left-part {
+@media (max-width:700px) {
+    #main {
+        margin:0;
+    }
+    #left-part,#right-part {
         width:100%;
 
     }
     #picture-and-name {
         text-align: center;
     }
-    
-    #right-part {
-        width:100%;
-    }
 
     #contact, #language-skills {
         margin: 0 5%;
-    }
-
-    ul {
-        list-style-type: none;  
     }
 
 }
