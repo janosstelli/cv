@@ -62,11 +62,14 @@ a:hover {
 @media (max-width:700px) {
     #main {
         margin:0;
+        min-width: 300px;
     }
+    
     #left-part,#right-part {
         width:100%;
 
     }
+    
     #picture-and-name {
         text-align: center;
     }
