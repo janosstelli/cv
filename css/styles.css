@@ -1,5 +1,10 @@
 html {
     font-family: 'Open Sans', sans-serif;
+    background-color: #FBFEF9;
+}
+
+body {
+    background-color: #FBFEF9;
 }
 
 figcaption {
@@ -17,18 +22,18 @@ td {
 
 #left-part {
     min-width: 300px;
-    background-color: #0077B5;
+    background-color: #02020A;
+    color:#fff;
 }
 
 #main {
-    background-color: #ffffff;
+    background-color: #FBFEF9;
     margin: 30px 10% 50px;
-    color:#eae5e5;
 }
 
 #right-part {
     padding: 25px;
-    background-color: #808080;
+    background-color: #fff;
 }
 
 
@@ -59,30 +64,38 @@ a:hover {
     color:yellowgreen;
 }
 
-@media (max-width:700px) {
-    #main {
-        margin:0;
-        min-width: 300px;
-    }
-    
-    #left-part,#right-part {
-        width:100%;
-
-    }
-    
-    #picture-and-name {
-        text-align: center;
-    }
-
-    #contact, #language-skills {
-        margin: 0 5%;
-    }
-
+.logo {
+    background-color: ;
 }
+
 
 @media only screen and (max-width: 1125px) and (min-width: 992px)
 {
     .col-md-1 {
         width:0;
     }
+}
+
+
+@media (max-width:700px) {
+    #left-part {
+        width:100%;
+
+    }
+    #picture-and-name {
+        text-align: center;
+    }
+    
+    #right-part {
+        width:100%;
+    }
+    #main {
+        margin:0;
+        min-width: 300px;
+    }
+
+    #contact, #language-skills {
+        margin: 0 5%;
+    }
+
 }
